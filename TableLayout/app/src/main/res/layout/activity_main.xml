@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bridgeit.tablelayout.MainActivity">
+
+    <TableRow>
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:padding="20dp"
+            android:text="@string/row1"
+            android:background="@color/colorb"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+
+     <TextView
+         android:id="@+id/text2"
+         android:padding="20dp"
+         android:layout_weight="1"
+         android:background="@color/colorAccent"
+         android:text="@string/row2_col1"
+         />
+        <TextView
+            android:id="@+id/text3"
+            android:padding="20dp"
+            android:layout_weight="1"
+            android:text="@string/row2_col2"
+
+            />
+        <TextView
+            android:id="@+id/text4"
+            android:padding="20dp"
+            android:background="@color/colorAccent"
+            android:layout_weight="1"
+            android:text="@string/row2_col3"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/text5"
+            android:padding="20dp"
+            android:layout_weight="1"
+            android:background="@color/colororg"
+            android:textStyle="bold"
+            android:text="@string/row3_col1"
+            />
+        <TextView
+            android:id="@+id/text6"
+            android:padding="20dp"
+            android:layout_weight="1"
+            android:background="@color/coloryell"
+            android:text="@string/row3_col2"
+            />
+
+
+    </TableRow>
+
+</TableLayout>
