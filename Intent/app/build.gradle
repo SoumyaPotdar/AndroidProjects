@@ -2,9 +2,15 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
+<<<<<<< HEAD
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.example.bridgeit.intent"
+=======
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.example.bridgelabz.intent"
+>>>>>>> 05426d10c37fb0e6f30233bea6d5101ac4231d12
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
@@ -24,6 +30,10 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+<<<<<<< HEAD
     compile 'com.android.support:appcompat-v7:25.3.0'
+=======
+    compile 'com.android.support:appcompat-v7:25.0.0'
+>>>>>>> 05426d10c37fb0e6f30233bea6d5101ac4231d12
     testCompile 'junit:junit:4.12'
 }
